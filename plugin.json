@@ -1,8 +1,8 @@
 {
-  "name": "plugin-sample",
-  "author": "Vanessa",
-  "url": "https://github.com/siyuan-note/plugin-sample",
-  "version": "0.4.0",
+  "name": "showtime-siyuan",
+  "author": "Sheld",
+  "url": "https://github.com/mcwz/showtime-siyuan",
+  "version": "0.1.0",
   "minAppVersion": "3.1.24",
   "backends": [
     "windows",
@@ -21,15 +21,15 @@
     "desktop-window"
   ],
   "displayName": {
-    "default": "Plugin Sample",
-    "zh_CN": "插件示例"
+    "default": "Show Time",
+    "zh_CN": "显示块时间"
   },
   "description": {
-    "default": "This is a plugin sample",
-    "zh_CN": "这是一个插件示例"
+    "default": "Show block update time",
+    "zh_CN": "此插件可以显示块修改时间，对笔记正文无任何污染。当鼠标移到内容块上时，左侧会显示当前块的修改时间。"
   },
   "readme": {
-    "default": "README.md",
+    "default": "README_zh_CN.md",
     "zh_CN": "README_zh_CN.md"
   },
   "funding": {
@@ -37,11 +37,11 @@
     "patreon": "",
     "github": "",
     "custom": [
-      "https://ld246.com/sponsor"
+      ""
     ]
   },
   "keywords": [
-    "sample",
-    "示例"
+    "显示修改时间",
+    "显示块时间"
   ]
 }
