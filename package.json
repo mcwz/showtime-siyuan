@@ -1,6 +1,6 @@
 {
   "name": "showtime-siyuan",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Show block update time in Siyuan",
   "main": ".src/index.js",
   "scripts": {
