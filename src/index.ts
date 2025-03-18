@@ -19,9 +19,13 @@ export default class ShowTime extends Plugin {
 
     async updateConfigData() {
         configData = await this.loadData(STORAGE_NAME);
-        configData.fontColor = configData.fontColor ?? defaultData.fontColor;
-        configData.fontSize = configData.fontSize ?? defaultData.fontSize;
-        configData.fontPosition = configData.fontPosition ?? defaultData.fontPosition;
+        if (typeof configData !== "object") {
+            configData = defaultData;
+        } else {
+            configData.fontColor = configData.fontColor ?? defaultData.fontColor;
+            configData.fontSize = configData.fontSize ?? defaultData.fontSize;
+            configData.fontPosition = configData.fontPosition ?? defaultData.fontPosition;
+        }
     }
 
 
